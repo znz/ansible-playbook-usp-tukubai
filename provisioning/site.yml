@@ -3,3 +3,4 @@
   sudo: yes
   roles:
   - ja_jp
+  - usp-tukubai

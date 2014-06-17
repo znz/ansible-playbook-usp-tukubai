@@ -1,0 +1,4 @@
+---
+- apt: name=git
+- git: repo=https://github.com/usp-engineers-community/Open-usp-Tukubai dest={{ usp_tukubai_srcdir }} depth=1
+- command: make install chdir={{ usp_tukubai_srcdir }}
